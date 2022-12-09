@@ -1,0 +1,59 @@
+.launchpad-container {
+    align-items: center;
+    /* background: linear-gradient(0deg, rgba(255,255,242,.4) 0%, rgba(255,251,240,.2) 20%, rgba(0,0,0,0) 100%); */
+    bottom: 0;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    left: 0;
+    padding: 4px 40px;
+    position: sticky;
+    top: 100%;
+    /* transition: all 0.2s; */
+}
+
+/* .launchpad-container.expanded {
+    height: 70%;
+} */
+
+.launchpad-panel {
+    background: #ffffff4d;
+    backdrop-filter: blur(22px) saturate(4);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    font-size: 10pt;
+    gap: 12px;
+    max-width: 600px;
+    padding: 12px;
+    transition: all 0.1s ease-out;
+}
+
+.apps {
+    display: flex;
+    gap: 12px;
+}
+
+.launchpad-header {
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: center;
+}
+
+.launchpad-header input[name="search"] {
+    background: #00000010;
+    border: 1px solid #ffffff20;
+    border-radius: 12px;
+    font-family: 'Lato', sans-serif;
+    /* font-size: 12pt; */
+    padding: 8px 12px;
+}
+
+.launchpad-header input[name="search"]:focus-visible {
+    outline: 2px solid #00000024;
+}
+
+/* .launchpad-panel.expanded {
+    height: 100%;
+    flex-grow: 1;
+} */

@@ -1,0 +1,18 @@
+.window-pane {
+    background-color: #ffffff88;
+    border-radius: 7.5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0.5px; */
+    overflow: hidden;
+    position: relative;
+}
+
+.window-drag-area {
+    height: calc(100% - 16px);
+    left: 8px;
+    position: absolute;
+    top: 8px;
+    width: calc(100% - 16px);
+}

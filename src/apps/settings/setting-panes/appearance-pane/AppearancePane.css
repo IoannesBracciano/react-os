@@ -1,0 +1,131 @@
+.image-grid {
+    /* background: #ffffff;
+    border: 1px solid #d0d0d0; */
+    display: flex;
+    flex-flow: wrap;
+    gap: 8px;
+    max-height: 200px;
+    /* justify-content: center; */
+    overflow-y: scroll;
+    padding: 12px 0;
+}
+
+.image-grid .thumb {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 6px solid transparent;
+    border-style: solid;
+}
+
+.image-grid .thumb-lg {
+    height: 72px;
+    width: 124px;
+}
+
+.image-grid .thumb-md {
+    height: 48px;
+    width: 72px;
+}
+
+.image-grid .thumb.selected {
+    border-color: #4400ff40;
+}
+
+.image-grid .thumb img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.accent-palette {
+    padding: 8px 0;
+    display: flex;
+    gap: 12px;
+}
+
+.swatch {
+    border-radius: 100%;
+    color: #fff;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    width: 24px;
+}
+
+.swatch:hover {
+    cursor: pointer;
+}
+
+.swatch#violete {
+    background-color: #9842ff;
+}
+
+.swatch#blue {
+    background-color: #3971ff;
+}
+
+.swatch#green {
+    background-color: #9ddf1a;
+}
+
+.swatch#yellow {
+    background-color: #e3d31a;
+}
+
+.theme-list {
+    display: flex;
+    gap: 24px;
+}
+
+.theme-preview {
+    position: relative;
+    padding: 8px;
+    padding-bottom: 0;
+    border-radius: 12px;
+}
+
+.theme-preview.selected {
+    background: #c8d7ff;
+}
+
+.theme-preview .theme-name {
+    margin: 8px 0;
+    text-align: center;
+}
+
+.theme-preview#theme-light .theme-gradient {
+    width: 112px;
+    box-shadow: 0 1px 12px 2px #00000020;
+    height: 64px;
+    border-radius: 6px;
+    background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(244,244,244,1) 40%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+}
+
+.theme-preview#theme-light .highlight {
+    height: 8px;
+    width: 22px;
+    border-radius: 3px;
+    background: #3972ff;
+    position: absolute;
+    top: 51px;
+    left: 85px;
+}
+
+.theme-preview#theme-dark .theme-gradient {
+    width: 112px;
+    box-shadow: 0 1px 12px 2px #00000020;
+    height: 64px;
+    border-radius: 6px;
+    background: linear-gradient(90deg, rgb(83 83 83) 0%, rgb(93 93 93) 40%, rgb(43 43 43) 40%, rgb(43 43 43) 100%);
+}
+
+.theme-preview#theme-dark .highlight {
+    height: 8px;
+    width: 22px;
+    border-radius: 3px;
+    background: #3972ff;
+    position: absolute;
+    top: 51px;
+    left: 85px;
+}

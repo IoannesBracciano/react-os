@@ -1,0 +1,42 @@
+#mail-app .window-pane-header .email-brief {
+    padding: 12px;
+}
+
+#mail-app .window-pane-header .email-subject {
+    font-size: 14pt;
+    margin: 4px 0;
+}
+
+#mail-app .window-pane-header .sender-name {
+    font-size: 10pt;
+    color: #3c3c3c;
+    font-weight: 800;
+}
+
+#mail-app .collection-list {
+    padding: 12px;
+}
+
+#mail-app .collection-list .collection-item {
+    border-bottom: 1px solid transparent;
+    border-radius: 6px;
+    padding: 12px 0;
+}
+
+#mail-app .collection-list .collection-item.selected {
+    background: #ffffff80;
+    border-bottom: 1px solid #3b1b6152;
+ }
+
+#mail-app .collection-list .email-subject {
+    margin: 0;
+    font-size: 10pt;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+#mail-app .collection-list .sender-name {
+    font-size: 10pt;
+    color: #00000063;
+    padding-left: 12px;
+}

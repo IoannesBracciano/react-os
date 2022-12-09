@@ -1,0 +1,63 @@
+.list-view {
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-view .list-item {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: default;
+    padding: 8px 12px;
+}
+
+.list-view .list-item:focus-visible {
+    outline: none;
+}
+/* 
+.list-view .list-item:hover,
+#notebook-app .collection-list .collection-item:hover {
+    background: #00000012;
+    cursor: default;
+}
+*/
+/* .list-view .list-item:active {
+    background-color: rgb(var(--accent-color) / .2);
+    filter: brightness(.7);
+} */
+
+.list-view .list-item.focused {
+    background-color: rgb(var(--accent-color));
+    /* border-bottom: 1px solid #efc81378; */
+    /* box-shadow: 0 2px 12px 0px #0000000a; */
+    color: #ffffff;
+}
+
+.list-view .list-item.selected {
+    background-color: rgb(var(--accent-color));
+    /* border-bottom: 1px solid rgb(117 35 214); */
+    color: #ffffff;
+}
+
+
+.list-view .list-header-item {
+    border-radius: 4px;
+    color: #00000069;
+    cursor: pointer;
+    display: flex;
+    font-size: 10pt;
+    font-weight: 800;
+    gap: 4px;
+    margin-bottom: 4px;
+    margin-top: 24px;
+    padding: 4px 4px;
+}
+
+.list-view .list-header-item:hover {
+    background: #0000000a;
+}
+
+.list-view .list-header-item .expand-icon {
+    flex: 0 0 12px;
+}

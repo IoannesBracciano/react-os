@@ -1,0 +1,99 @@
+.window-base {
+    background-color: #f0f8ff8a;
+    /* backdrop-filter: blur(32px) saturate(1.8) brightness(1.4); */
+    backdrop-filter: blur(80px) saturate(4) brightness(1.4);
+    border-radius: 8px;
+    box-shadow: 0 0 40px 4px #00000040;
+    box-sizing: border-box;
+    left: 200px;
+    padding: 0.5px;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+}
+
+.window-base.focused {
+    z-index: 2;
+}
+
+/* .window-base .window-pane:first-of-type {
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+} */
+
+.window-base .window-pane:first-of-type .window-pane-header {
+    padding-left: 44px;
+}
+
+/* .window-base .window-pane:last-of-type {
+    border-top-right-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+} */
+
+.window-base .resize-handler.vertical {
+    height: 8px;
+    left: 8px;
+    position: absolute;
+    width: calc(100% - 16px);
+}
+
+.window-base .resize-handler.vertical:hover {
+    cursor: ns-resize;
+}
+
+.window-base .resize-handler.vertical.north {
+    top: 0;
+}
+
+.window-base .resize-handler.vertical.south {
+    bottom: 0;
+}
+
+.window-base .resize-handler.horizontal {
+    height: calc(100% - 16px);
+    top: 8px;
+    position: absolute;
+    width: 8px;
+}
+
+.window-base .resize-handler.horizontal:hover {
+    cursor: ew-resize;
+}
+
+.window-base .resize-handler.horizontal.west {
+    left: 0;
+}
+
+.window-base .resize-handler.horizontal.east {
+    right: 0;
+}
+
+.window-base .resize-handler.diagonal {
+    height: 8px;
+    position: absolute;
+    width: 8px;
+}
+
+.window-base .resize-handler.diagonal.south-east {
+    bottom: 0;
+    cursor: nwse-resize;
+    right: 0;
+}
+
+.window-base .resize-handler.diagonal.south-west {
+    bottom: 0;
+    cursor: nesw-resize;
+    left: 0;
+}
+
+.window-base .resize-handler.diagonal.north-east {
+    cursor: nesw-resize;
+    right: 0;
+    top: 0;
+}
+
+.window-base .resize-handler.diagonal.north-west {
+    cursor: nwse-resize;
+    left: 0;
+    top: 0;
+}

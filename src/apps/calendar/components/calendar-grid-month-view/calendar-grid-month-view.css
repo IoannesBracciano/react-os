@@ -1,0 +1,15 @@
+.calendar-grid-cell {
+    cursor: pointer;
+    height: 28px;
+    text-align: center;
+}
+
+.calendar-grid-cell .date {
+    border-radius: 99px;
+    padding: 4px;
+}
+
+.calendar-grid-cell.selected .date {
+    background-color: black;
+    color: white;
+}

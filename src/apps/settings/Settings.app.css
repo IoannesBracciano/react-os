@@ -1,0 +1,134 @@
+input[name="search"] {
+    background: #b8b8b82e;
+    border: 1px solid #00000012;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+input[name="search"]:focus-visible {
+    outline: 1px solid #4800ffa8;
+}
+
+#settings-app .window-pane:nth-of-type(2) h1 {
+    font-weight: 600;
+    font-size: 16pt;
+    margin: 0;
+    margin-top: 20px;
+}
+
+#settings-app .window-pane:nth-of-type(2) .window-pane-header,
+#settings-app .window-pane:nth-of-type(2) .settings-pane-body {
+    padding: 12px 24px;
+}
+
+#settings-app .settings-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#settings-app .settings-list .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#settings-app .settings-list .item.item-block {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+#settings-app .settings-list .item .setting-label h4 {
+    margin: 0;
+    font-size: 12pt;
+}
+
+.section:not(:first-of-type) {
+    font-family: 'Lato', sans-serif;
+    margin-top: 24px;
+}
+
+.section h3 {
+    font-size: 12pt;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.setting {
+    font-size: 10pt;
+    padding: 4px 0;
+}
+
+.setting .setting-name {
+    font-weight: 600;
+}
+
+.scroll-view {
+    height: 100%;
+    overflow: scroll;
+}
+
+.window-pane-header .user-badge {
+    padding: 12px 8px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato',sans-serif;
+}
+
+.window-pane-header .user-badge .user-name {
+    margin: 0;
+}
+
+.window-pane-header .user-badge .system-notifications {
+    font-size: 10pt;
+}
+
+/* img.thumb-lg {
+    height: 72px;
+    width: 72px;
+}
+
+img.thumb-md {
+    height: 32px;
+    width: 32px;
+}
+
+img.round {
+    border-radius: 999px;
+} */
+
+.window-blocking-pane {
+    background: #f5f5f5;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 2px 12px 0 #00000020;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    gap: 12px;
+    left: 50%;
+    top: 1px;
+    transform: translateX(-50%);
+    padding: 24px 32px;
+    position: absolute;
+    width: 248px;
+    z-index: 9;
+}
+
+.window-blocking-pane input {
+    background: #00000008;
+    border: 1px solid #00000010;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+.pane-actions {
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+}

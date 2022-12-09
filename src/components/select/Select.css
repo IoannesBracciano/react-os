@@ -1,0 +1,42 @@
+.select {
+    position: relative;
+}
+
+.select .btn {
+    align-items: center;
+    background-color: #00000008;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.select .btn:hover {
+    background-color: #00000012;
+}
+
+.select.dropped .btn {
+    background-color: #00000020;
+}
+
+.select .select-options-pane {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px 2px #00000020;
+    padding: 4px;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+
+.select .select-options-pane.center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.select .select-options-pane.left {
+    left: 0;
+}
+
+.select .select-options-pane.right {
+    right: 0;
+}

@@ -1,0 +1,32 @@
+#calendar-app .calendar-item {
+    background-color: #18a3ff8d;
+    border-radius: 4px;
+    /* border-left: 2px solid #a0a0a0; */
+    color: #00255f;
+    cursor: default;
+    font-size: 10pt;
+    line-height: 10px;
+    font-weight: 400;
+    height: -moz-fit-content;
+    height: 12px;
+    margin: 0 4px;
+    min-height: 8px;
+    min-width: 12px;
+    overflow: hidden;
+    padding: 2px 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transform: translateY(32px);
+    /* width: fit-content; */
+}
+
+#calendar-app .calendar-item:hover {
+    /* background-color: #00000008; */
+}
+
+#calendar-app .calendar-item.active {
+    background-color: #0099ff;
+    box-shadow: 0 2px 8px 2px #00000040;
+    padding: 4px 8px;
+    transform: translateY(30px);
+}

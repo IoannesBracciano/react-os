@@ -1,0 +1,92 @@
+
+/* #notebook-app .list-view .list-item:active {
+    background: #ab8b4070;
+} */
+
+#notebook-app .list-view .list-item {
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+
+#notebook-app .list-view .list-item.selected {
+    border-radius: 0;
+}
+/* 
+#notebook-app .list-view .list-item.focused,
+#notebook-app .list-view .list-item.focused.selected {
+    outline: 2px solid #d6a100;
+    border-bottom-color: transparent;
+}
+
+#notebook-app .list-view .list-item.focused:not(.selected) {
+    background: transparent;
+    color: #000000;
+} */
+
+#notebook-app .list-view .list-item.selected,
+#notebook-app .list-view .list-item.targeted.selected {
+    background: #ffe036;
+    color: #663b00;
+}
+
+#notebook-app .list-view > .list-item.selected-first {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#notebook-app .list-view > .list-item.selected-last {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#notebook-app .list-view .list-item.targeted {
+    background: transparent;
+    border-left: 2px solid #d6a100;
+    border-right: 2px solid #d6a100;
+    color: #000000;
+}
+
+#notebook-app .list-view .list-item.targeted-first {
+    border-top: 2px solid #d6a100;
+}
+
+#notebook-app .list-view .list-item.targeted-last {
+    border-bottom: 2px solid #d6a100;
+}
+
+#notebook-app .list-view .list-item .list-item-title {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 12pt;
+    gap: 8px;
+    line-height: 20px;
+}
+
+#notebook-app .list-view .list-item .list-item-title .note-title {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#notebook-app .list-view .list-item .list-item-date {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #00000050;
+    font-size: 10pt;
+}
+
+#notebook-app .list-view .list-item .archived-icon {
+    color: #000000ad;
+    font-size: 10pt;
+}
+
+#notebook-app .list-view .list-item .archived-icon svg {
+    margin-right: 4px;
+}
+
+#notebook-app .switch:checked::after {
+    background-color: #bd6d00;
+}
+

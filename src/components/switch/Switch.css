@@ -1,0 +1,56 @@
+.switch {
+    -webkit-appearance: none;
+	-webkit-tap-highlight-color: transparent;
+	border: 0;
+    margin: 0;
+    margin-bottom: -4px;
+	outline: 0;
+	position: relative;
+}
+
+.switch::before {
+    background-color: #fff;
+    border-radius: 99px;
+    content: '';
+    display: inline-block;
+    height: 16px;
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    transition: all 0.1s;
+    width: 16px;
+}
+
+.switch.compact::before {
+    height: 14px;
+    left: 1px;
+    top: 1px;
+    width: 14px;
+}
+
+.switch:checked::before {
+    left: 14px;
+}
+
+.switch.compact:checked::before {
+    left: 9px;
+}
+
+.switch::after {
+    background-color: rgba(0, 0, 0, 0.082);
+    border-radius: 99px;
+    content: '';
+    display: inline-block;
+    height: 20px;
+    transition: all 0.1s;
+    width: 32px;
+}
+
+.switch.compact::after {
+    height: 16px;
+    width: 24px;
+}
+
+.switch:checked::after {
+    background-color: rgb(var(--accent-color));
+}

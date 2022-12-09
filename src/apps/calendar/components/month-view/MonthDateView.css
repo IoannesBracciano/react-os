@@ -1,0 +1,28 @@
+/* #calendar-app .day .event-chip {
+    border-left: 2px solid #a0a0a0;
+    color: #343434;
+    cursor: default;
+    font-size: 10pt;
+    font-weight: 400;
+    margin: 4px 0;
+    min-height: 12px;
+    min-width: 12px;
+    overflow: hidden;
+    padding: 2px 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.day .event-chip:hover {
+    background-color: #00000008;
+}
+
+.day .event-chip:active,
+.day .event-chip.active {
+    background-color: #00000012;
+}
+
+.last-month-day .event-chip,
+.next-month-day .event-chip {
+    opacity: 0.5;
+} */

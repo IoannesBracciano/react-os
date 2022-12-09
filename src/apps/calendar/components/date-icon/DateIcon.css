@@ -1,0 +1,39 @@
+.date-icon {
+    background-color: #00000000;
+    /* background-color: #00000012; */
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #000000d4;
+    display: inline-block;
+    font-weight: 800;
+    height: 32px;
+    padding: 4px;
+    width: 32px;
+}
+
+.date-icon.compact {
+    height: 24px;
+    padding: 3px 2px;
+    width: 24px;
+}
+
+.date-icon .day-of-week {
+    font-size: 6pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.date-icon.compact .day-of-week {
+    font-size: 5pt;
+}
+
+.date-icon .day-of-month {
+    font-size: 11pt;
+    margin-top: -2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.date-icon.compact .day-of-month {
+    font-size: 8pt;
+}

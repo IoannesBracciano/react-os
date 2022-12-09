@@ -1,0 +1,36 @@
+.date-select {
+    overflow: hidden;
+}
+
+.date-select .calendar-mini {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.date-select .calendar-mini-header {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+}
+
+.date-select .calendar-mini-header .btn {
+    font-size: 10pt;
+}
+
+.date-select .calendar-mini-view .date {
+    cursor: pointer;
+    font-size: 10pt;
+    height: 16px;
+    padding: 4px;
+    text-align: center;
+    width: 16px;
+}
+
+.date-select .calendar-mini-view .date.selected {
+    background-color: #000;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 800;
+}

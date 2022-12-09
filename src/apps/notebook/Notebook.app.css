@@ -1,0 +1,84 @@
+#notebook-app .window-pane:first-of-type .window-pane-header,
+#notebook-app .window-pane:first-of-type .window-pane-header .btn {
+    color: #663b00;
+    gap: 0;
+}
+
+.empty-list-prompt {
+    padding: 12px;
+    color: #00000060;
+}
+
+.note-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    margin: 2px 0;
+    padding: 12px;
+}
+
+.note-container .note-title {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 8px 0px;
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+.note-container .note-content {
+    background: none;
+    border: none;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.note-container .note-title:focus-visible,
+.note-container .note-content:focus-visible {
+    outline: none;
+}
+
+#notebook-app .DraftEditor-root {
+    height: 100%;
+}
+
+#notebook-app .DraftEditor-editorContainer,
+#notebook-app .public-DraftEditor-content {
+    height: 100%;
+}
+
+.button-group .btn {
+    margin-left: 1px;
+    border-radius: 0;
+}
+
+.button-group .btn:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.button-group .btn:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.window-pane-header .select#block-style-select {
+    width: 120px;
+}
+
+.scroll-view {
+    overflow: scroll;
+}
+
+.flex-container.flex-horizontal {
+    align-items: center;
+    display: flex;
+    font-size: 10pt;
+    gap: 8px;
+    justify-content: end;
+    padding: 12px;
+    color: #663b00;
+    text-shadow: 0.5px 0.5px #fff;
+}

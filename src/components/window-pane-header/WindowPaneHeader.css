@@ -1,0 +1,41 @@
+.window-pane-header {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.window-pane-header .btn {
+    font-size: 10pt;
+}
+
+.window-close-btn {
+    appearance: none;
+    background: #ff7c79eb;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    width: 12px;
+    height: 12px;
+    font-size: 6pt;
+    line-height: 0;
+    font-family: system-ui;
+    font-weight: bold;
+    color: #4f030300;
+    padding: 0;
+    position: absolute;
+    left: 12px;
+    top: 18px;
+    z-index: 99;
+}
+
+.window-close-btn:hover {
+    background: #ff8682;
+    color: #4f0303c9;
+}
+
+.window-close-btn:active {
+    background: #73251cf0;
+    color: #d2715aba;
+}

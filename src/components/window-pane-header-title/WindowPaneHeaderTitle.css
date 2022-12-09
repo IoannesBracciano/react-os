@@ -1,0 +1,10 @@
+.window-pane-header-title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.window-pane-header-title > h4 {
+    cursor: default;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}

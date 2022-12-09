@@ -1,0 +1,35 @@
+.flex-container.vertical {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.flex-container.vertical .scroll-view {
+    flex-grow: 1;
+}
+
+ul#customization-options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#customization-options li {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    font-size: 10pt;
+    justify-content: space-between;
+    padding: 8px 12px;
+}
+
+ul#customization-options li label {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+ul#customization-options .select {
+    width: 100px;
+}

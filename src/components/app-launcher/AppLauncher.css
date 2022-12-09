@@ -1,0 +1,39 @@
+.app-launcher {
+    font-family: 'Lato', sans-serif;
+}
+
+.app-launcher-icon {
+    background-color: #ffffff80;
+    border-radius: 10px;
+    box-shadow: 0px -2px 12px 2px #00000060;
+    height: 36px;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: transform 0.1s;
+    width: 36px;
+}
+
+.app-launcher-icon:active {
+    transform: scale(0.95);
+}
+
+.app-launcher-icon.queued {
+    animation: 0.5s infinite alternate launching;
+}
+
+.app-name {
+    font-size: 10pt;
+    margin-top: 12px;
+    text-align: center;
+    /* width: 100%; */
+}
+
+@keyframes launching {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+}

@@ -1,0 +1,14 @@
+.context-menu-scope {
+    height: 100%;
+    width: 100%;
+}
+
+.context-menu {
+    background: #ffffffb8;
+    -webkit-backdrop-filter: blur(22px) saturate(2) brightness(0.9);
+    backdrop-filter: blur(22px) saturate(2) brightness(0.9);
+    border-radius: 6px;
+    box-shadow: 0 2px 32px 2px #00000040;
+    padding: 2px;
+    z-index: 99;
+}
